@@ -1,3 +1,5 @@
+
+   
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
@@ -60,7 +62,7 @@ router.post('/', (req, res) => {
 });
 
 // update product
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
@@ -101,21 +103,23 @@ router.put('/:id', (req, res) => {
     });
 });
 
-/**
- * @async
- * Finding one Product by ID and delete it.
- */
+// delete one product by its `id` value
 router.delete('/:id', async (req, res) => {
-  try{
-    const product_del = await Product.destroy({
-      where:{
-        id: req.params.id
-      }
-    })
-    product_del ? res.status(200).json(`${product_del} Product has been deleted`)
-    : res.status(400).json({message: 'No Product Id found'})
-  }catch(err){
-    res.status(400).json(err)
+  try {
+    const productData = await Product.destroy({
+      where: {
+        id: req.params.id,
+      },
+    });
+    if (!productData) {
+      res.status(404).json({
+        message: 'No product found with that id!'
+      });
+      return;
+    }
+    res.status(200).json(productData);
+  } catch (err) {
+    res.status(500).json(err);
   }
 });
 
