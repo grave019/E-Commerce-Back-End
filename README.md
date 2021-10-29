@@ -7,8 +7,11 @@
   Building a backend of an e-commerce site by modifying starter code. Utilizing, Express, MySQL, JSON, Sequalize, Insomnia are all used in demonstration.
   
   Click the link below to visit my deployed page.
+PLEASE NOTE 2 VIDEOS SECOND DEMONSTRATES FUNCTIONALITY OF DELETE
 
-  <!-- [URL](undefined) -->
+https://www.youtube.com/watch?v=FHILX8-0Arc
+
+https://youtu.be/cRWWq7Ghyec
 
   ## Table of Contents
   
@@ -42,12 +45,24 @@
 
   ## Problems
 
-  getting the productroutes.js file to connect was the most difficult.
+  getting the productroutes.js file to connect was the most difficult. Otherwise everything fell into place from the miniproject.
 
   ## Visualization
 
-  placeholder to add images or other media
+MOCK UP IMAGES
 
+![mockup 1](Assets/13-orm-homework-demo-01.gif)
+![mockup 2](Assets/13-orm-homework-demo-02.gif)
+![mockup 3](Assets/13-orm-homework-demo-03.gif)
+The Following images show interconnectivity in MySQL
+![category](Assets/category.png)
+![product-tag](Assets/product-tag.png)
+![product](Assets/product.png)
+![tag](Assets/tag.png)
+command line screenshot of npm run seed
+![npm run seed](Assets/npm-seed.png)
+command line screenshot of npm start
+![npm start](Assets/npm-start.png)
   ## Acknowledgements
 
   Brent Graves, Fenix Sampson, Gabriel Cavalcante Causin
