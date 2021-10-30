@@ -37,15 +37,21 @@ https://youtu.be/cRWWq7Ghyec
 
   ## Installation
   
-  first install the dependencies by running npm i. npm run seed after the .env file is utilized with a proper username and password. then npm start.  
+  First, install the dependencies by running "npm i".
+  
+  Second, open your my sql and enter schema with a live host and create a database to to connect to.
+
+  Third,  "npm run seed" after the .env file is utilized with a proper username and password. A Screenshot below shows successful running of the command.
+  
+  Fourth, enter npm start. This will activate the local host to be manipulated at localhost:3001.  
 
   ## Test
 
-  none
+  No test are written for this application. However, eventually a npm audit fix may be needed to run in case of vulnerabilities in the dependecies in the package lock JSON due to newer versions being released. But as of this time there are no vulnerabilities. However, this is not a anticipated outcome from the installation process.
 
   ## Problems
 
-  getting the productroutes.js file to connect was the most difficult. Otherwise everything fell into place from the miniproject.
+  Getting the productroutes.js file to connect was the most difficult. Otherwise everything fell into place from the miniproject.
 
   ## Visualization
 
