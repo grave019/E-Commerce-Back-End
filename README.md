@@ -4,10 +4,11 @@
 
   ## Description
 
-  Building a backend of an e-commerce site by modifying starter code. Utilizing, Express, MySQL, JSON, Sequalize, Insomnia are all used in demonstration.
+  Building a backend server to a e-commerce site by modifying starter code. Utilizing, Express, MySQL, JSON, Sequalize, Insomnia are all used in demonstration.
   
   Click the link below to visit my deployed page.
-PLEASE NOTE 2 VIDEOS SECOND DEMONSTRATES FUNCTIONALITY OF DELETE
+
+* PLEASE NOTE 2 VIDEOS SECOND DEMONSTRATES FUNCTIONALITY OF DELETE
 
 https://www.youtube.com/watch?v=FHILX8-0Arc
 
@@ -29,21 +30,21 @@ https://youtu.be/cRWWq7Ghyec
   
   ## Goals
 
-  To connect a backend to working front end. This required utilizing GET, POST, PUT,  DELETE, Routes to be utilized in insomnia.
+  To connect a backend to working server to a front end application. This required utilizing GET, POST, PUT,  DELETE, Routes to be utilized in Insomnia. Heading into this project I had difficulties working with Insomnia. This application helped me learn a tool that I wasn't very comfortable with before hand. I definitely feel like I accomplished this goal.
 
   ## Usage
 
-  Connect back end to a front end e-commerce site.
+  Connects a backend server to a front end e-commerce site. 
 
   ## Installation
   
-  First, install the dependencies by running "npm i".
+ * First, install the dependencies by running "npm i".
   
-  Second, open your my sql and enter schema with a live host and create a database to to connect to.
+ * Second, open your my sql and enter schema with a live host and create a database to to connect to.
 
-  Third,  "npm run seed" after the .env file is utilized with a proper username and password. A Screenshot below shows successful running of the command.
+ * Third,  "npm run seed" after the .env file is utilized with a proper username and password. A Screenshot below shows successful running of the command.
   
-  Fourth, enter npm start. This will activate the local host to be manipulated at localhost:3001.  
+ * Fourth, enter npm start. This will activate the local host to be manipulated at localhost:3001.  
 
   ## Test
 
@@ -71,15 +72,17 @@ command line screenshot of npm start
 ![npm start](Assets/npm-start.png)
   ## Acknowledgements
 
-  Brent Graves, Fenix Sampson, Gabriel Cavalcante Causin
+  Brent Graves, Fenix Sampson, Gabriel Cavalcante Causin, Dan Rosenbaum and John Dinsmore
 
   ## Contributions
 
-  submit a fork request and feel free to refractor the code
+  * Please submit a fork request and feel free to refractor the code
 
   ## Resources
  
-  Eloquent JS, In class activities
+  * Eloquent JS 
+  
+  * In class activities, including the mini project for this unit.
 
   ## License
 
